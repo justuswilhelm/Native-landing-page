@@ -1,1 +1,619 @@
-<h1>Hello Habitat!</h1>
+<!doctype html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Habitat</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+  <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+  <!-- NAVBAR -->
+  <div id="navbar" class="navbar navbar-default" role="navigation" ng-init="menuOpen = false " ng-class="{'mobile-open': menuOpen}">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" ng-click="goto('header')"></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder" ng-click="menuOpen = !menuOpen"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+      </div>
+      <div class="collapse navbar-collapse navbar-menubuilder">
+
+        <div class="collapse navbar-collapse navbar-menubuilder left">
+
+          <ul class="nav navbar-nav navbar-left">
+            <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servizi <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="btn-tab-section-1" ng-click="goto('tab-section-1')">Dati</a></li>
+                  <li><a href="#" class="btn-tab-section-2" ng-click="goto('tab-section-2')">Servizi app</a></li>
+                </ul>
+
+              </li>-->
+            <li><a href="#" class="btn-slides-section" ng-click="goto('slide-section')">About</a></li>
+            <li><a href="#" class="btn-plans-sections" ng-click="goto('plans-section')">FAQ</a></li>
+            <li><a href="#" class="btn-demo-callback" ng-click="goto('demo')">Team</a></li>
+          </ul>
+        </div>
+        <form class="navbar-form navbar-right" role="form">
+          <!-- <div class="form-group">
+          <input type="text" placeholder="Email" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Password" class="form-control">
+        </div>-->
+          <button type="submit" class="btn btn-void"><i class="fa fa-desktop" aria-hidden="true"></i> Login</button>
+          <button type="submit" class="btn btn-default btn-demo-callback" ng-click="goto('demo');"><i class="fa fa-desktop" aria-hidden="true"></i> Request demo</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <section id="header-section" class="tab-section header-section">
+
+    <div class="container">
+
+      <div class="row tabs ">
+        <div class="wrapper row col-sm-12 col-md-10 col-md-offset-1">
+          <div class="col-sm-5 col-md-4 col-md-offset-1 video">
+            <img src="img/video-image.png" style="width: 100%;">
+          </div>
+          <div class="col-sm-7 col-md-7 content">
+            <h1 class="title">Tools for the crypto-community</h1>
+            <h6>Habitat is the ultimate solution for cryptocurrency networks to thrive</h6>
+            <div class="actions">
+              <form class="form-inline flex" action="/p;id=2421e96f8f" method="post">
+                <div class="form-group flex">
+                  <input class="form-control" type="email" value="" name="EMAIL" placeholder="Email" required id="mce-EMAIL">
+                </div>
+                <div class="form-group flex">
+                  <button href="register" class='btn btn-success'>Subscribe</a></button>
+                </div>
+                <a class="btn btn-primary" href="#" role="button" ng-click="goto('contacts')">White Paper</a>
+
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row clock-wrapper">
+          <div class="col-md-12">
+          </div>
+          <div class="col-md-12" style="">
+            <span class="title title_countdown">Contributions period begins in..</span>
+
+            <div id="clockdiv">
+              <div><span class="days"></span>
+                <div class="smalltext">Days</div>
+              </div>
+              <div><span class="hours"></span>
+                <div class="smalltext">Hours</div>
+              </div>
+              <div><span class="minutes"></span>
+                <div class="smalltext">Minutes</div>
+              </div>
+            </div>
+
+            <p class="text more_details_countdown">More details..</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <div class="sec-diag"></div>
+
+  <!-- SERVIZI -->
+  <section id="plans-section" class="plans-section">
+
+    <div class="container">
+
+      <div class="section-header">
+        <h4 class="title">About Habitat</h4>
+        <div class="info">Habitat given your network access to across cryptocurrency apportunities across every blockchain</div>
+      </div>
+
+      <div class="plans row">
+
+        <div class="plan col-sm-12 col-md-3 featured">
+          <div class="head color1">
+            <div class="">
+              <i class="fa  fa-bullhorn icon" aria-hidden="true"></i>
+              <h3 class="title">Simple</h3>
+            </div>
+          </div>
+          <div class="content">
+            <p>Habitat empowers networks to collaborate and find opportunities across all blockchains from trusted friends.</p>
+            </ul>
+          </div>
+        </div>
+
+        <div class="plan col-sm-12 col-md-3 featured">
+          <div class="head color2">
+            <div class="">
+              <i class="fa fa-heart-o icon" aria-hidden="true"></i>
+              <h3 class="title">Streamlined</h3>
+            </div>
+          </div>
+          <div class="content">
+            <p>Habitat empowers networks to collaborate and find opportunities across all blockchains from trusted friends.</p>
+            </ul>
+          </div>
+        </div>
+
+        <div class="plan col-sm-12 col-md-3 featured">
+          <div class="head color1">
+            <div class="">
+              <i class="fa  fa-scissors icon" aria-hidden="true"></i>
+              <h3 class="title">Flexible</h3>
+            </div>
+          </div>
+          <div class="content">
+            <p>Habitat empowers networks to collaborate and find opportunities across all blockchains from trusted friends.</p>
+            </ul>
+          </div>
+        </div>
+
+        <div class="plan col-sm-12 col-md-3 featured">
+          <div class="head color2">
+            <div class="">
+              <i class="fa fa-diamond icon" aria-hidden="true"></i>
+              <h3 class="title">New</h3>
+            </div>
+          </div>
+          <div class="content">
+            <p>Habitat empowers networks to collaborate and find opportunities across all blockchains from trusted friends.</p>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="tabs-section" class="user-types-section">
+    <div class="separator"></div>
+    <div class="container">
+
+      <div class="section-header">
+        <h4 class="title">About Habitat</h4>
+        <div class="info">Habitat given your network access to across cryptocurrency apportunities across every blockchain</div>
+      </div>
+
+      <div class="row wrapper tabs">
+        <div class="tab col-md-4">
+          <div class="box box-1 active">
+            <div class="icon"><i class="fa fa-email"></i></div>
+            <div class="title">Crypto enthusiast</div>
+          </div>
+        </div>
+        <div class="tab col-md-4">
+          <div class="box box-2">
+            <div class="icon"><i class="fa fa-email"></i></div>
+            <div class="title">Crypto enthusiast</div>
+          </div>
+        </div>
+        <div class="tab col-md-4">
+          <div class="box box-3">
+            <div class="icon"><i class="fa fa-email"></i></div>
+            <div class="title">Crypto enthusiast</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row detail active animated fadeIn">
+
+        <div class="col-md-6 heading">
+          <h2 class="title mrb">Crypto enthusiast</h2>
+          <p class="short">Curabitur scelerisque ex nec tellus varius rutrum. Donec maximus feugiat rhoncus. Nunc vel arcu ut erat suscipit tincidunt nec ut leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ultrices
+            in velit eget efficitur. Phasellus accumsan leo nisl, ac gravida justo venenatis ac. </p>
+        </div>
+
+        <div class="col-md-6 image">
+          <img class="" src="img/flow-1.png" alt="">
+        </div>
+
+      </div>
+
+    </div>
+    <div class="separator green" style="bottom: 0;top: auto;margin-bottom: -150px;"></div>
+  </section>
+
+
+  <!-- ROADMAP -->
+  <section id="roadmap" class="roadmap-section">
+    <div class="separator2 reverse"></div>
+
+
+    <div class="container">
+      <div class="section-header">
+        <div class="info">Lorem ipsumd dolor sit ament</div>
+        <h4 class="title">Roadmap</h4>
+      </div>
+
+      <div class="roadmap-line"></div>
+
+      <div class="row">
+
+        <ul class="roadmap-list">
+
+            <li class="roadmap-item i1">
+              <div class="icon">1</div>
+              <div class="title">Titolo punto</div>
+              <div class="desc">Lorem ipsum dolor sit</div>
+            </li>
+            <li class="roadmap-item i2">
+              <div class="icon">2</div>
+              <div class="title">Titolo punto</div>
+              <div class="desc">Lorem ipsum dolor sit</div>
+            </li>
+            <li class="roadmap-item i3">
+              <div class="icon">3</div>
+              <div class="title">Titolo punto</div>
+              <div class="desc">Lorem ipsum dolor sit</div>
+            </li>
+            <li class="roadmap-item i4">
+              <div class="icon">4</div>
+              <div class="title">Titolo punto</div>
+              <div class="desc">Lorem ipsum dolor sit</div>
+            </li>
+            <li class="roadmap-item i5">
+              <div class="icon">5</div>
+              <div class="title">Titolo punto</div>
+              <div class="desc">Lorem ipsum dolor sit</div>
+            </li>
+
+        </ul>
+      </div>
+
+    </div>
+    <div class="separator1"></div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="tab-section-2" class="tab-section green team-section">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="info">Lorem ipsumd dolor sit ament</div>
+        <h4 class="title">Team</h4>
+      </div>
+
+      <div class="row ">
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 profile">
+          <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+            <img src="https://s3.amazonaws.com/mypresonus/profile/1432960478_922038.jpg" class="img-responsive">
+          </div>
+          <div class="col-md-9">
+            <h1>John Smith</h1>
+            <h2>Co-founder/ Operations</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 profile">
+          <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+            <img src="https://s3.amazonaws.com/mypresonus/profile/1432960478_922038.jpg" class="img-responsive">
+          </div>
+          <div class="col-lg-9 col-md-9">
+            <h1>John Smith</h1>
+            <h2>Co-founder/ Operations</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 profile">
+          <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+            <img src="https://s3.amazonaws.com/mypresonus/profile/1432960478_922038.jpg" class="img-responsive">
+          </div>
+          <div class="col-lg-9 col-md-9">
+            <h1>John Smith</h1>
+            <h2>Co-founder/ Operations</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row ">
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 profile">
+          <div class="col-xs-12 col-lg-3 col-md-3 col-xs-3 col-sm-3">
+            <img src="https://s3.amazonaws.com/mypresonus/profile/1432960478_922038.jpg" class="img-responsive">
+          </div>
+          <div class="col-xs-12 col-md-9">
+            <h1>John Smith</h1>
+            <h2>Co-founder/ Operations</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 profile">
+          <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+            <img src="https://s3.amazonaws.com/mypresonus/profile/1432960478_922038.jpg" class="img-responsive">
+          </div>
+          <div class="col-lg-9 col-md-9">
+            <h1>John Smith</h1>
+            <h2>Co-founder/ Operations</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 profile">
+          <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+            <img src="https://s3.amazonaws.com/mypresonus/profile/1432960478_922038.jpg" class="img-responsive">
+          </div>
+          <div class="col-lg-9 col-md-9">
+            <h1>John Smith</h1>
+            <h2>Co-founder/ Operations</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section id="tab-section-3" class="tab-section green partners-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="info">LOREM IPSUM DOLOR DELIR SIT</div>
+        <h4 class="title">Partners</h4>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div id="Carousel" class="carousel slide">
+
+            <div class="carousel-inner">
+
+              <div class="item active">
+                <div class="row">
+
+                  <div class="col-xs-12 col-md-4">
+                    <a href="#">
+                      <div class="partner col-sm-12 col-md-12 featured">
+                        <div class="col-sm-3">
+                          <img src="http://images4.wikia.nocookie.net/__cb20121104001423/logopedia/images/e/ee/Burger_King_Logo.svg.png">
+                        </div>
+                        <div class="col-sm-3 content">
+                          <p class="description">Description</p>
+                          <h4>Partners</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-xs-12 col-md-4">
+                    <a href="#">
+                      <div class="partner col-sm-12 col-md-12 featured">
+                        <div class="col-sm-3">
+                          <img src="http://images4.wikia.nocookie.net/__cb20121104001423/logopedia/images/e/ee/Burger_King_Logo.svg.png">
+                        </div>
+                        <div class="col-sm-3 content">
+                          <p class="description">Description</p>
+                          <h4>Partners</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-xs-12 col-md-4">
+                    <a href="#">
+                      <div class="partner col-sm-12 col-md-12 featured">
+                        <div class="col-sm-3">
+                          <img src="http://images4.wikia.nocookie.net/__cb20121104001423/logopedia/images/e/ee/Burger_King_Logo.svg.png">
+                        </div>
+                        <div class="col-sm-3 content">
+                          <p class="description">Description</p>
+                          <h4>Partners</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+
+              <ol class="carousel-indicators">
+                <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#Carousel" data-slide-to="1"></li>
+                <li data-target="#Carousel" data-slide-to="2"></li>
+              </ol>
+
+              <div class="item ">
+                <div class="row">
+
+                  <div class="col-xs-12 col-md-4">
+                    <a href="#">
+                      <div class="partner col-sm-12 col-md-12 featured">
+                        <div class="col-sm-3">
+                          <img src="http://images4.wikia.nocookie.net/__cb20121104001423/logopedia/images/e/ee/Burger_King_Logo.svg.png">
+                        </div>
+                        <div class="col-sm-3 content">
+                          <p class="description">Description</p>
+                          <h4>Partners</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-xs-12 col-md-4">
+                    <a href="#">
+                      <div class="partner col-sm-12 col-md-12 featured">
+                        <div class="col-sm-3">
+                          <img src="http://images4.wikia.nocookie.net/__cb20121104001423/logopedia/images/e/ee/Burger_King_Logo.svg.png">
+                        </div>
+                        <div class="col-sm-3 content">
+                          <p class="description">Description</p>
+                          <h4>Partners</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-xs-12 col-md-4">
+                    <a href="#">
+                      <div class="partner col-sm-12 col-md-12 featured">
+                        <div class="col-sm-3">
+                          <img src="http://images4.wikia.nocookie.net/__cb20121104001423/logopedia/images/e/ee/Burger_King_Logo.svg.png">
+                        </div>
+                        <div class="col-sm-3 content">
+                          <p class="description">Description</p>
+                          <h4>Partners</h4>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+            <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- FOOTER -->
+  <section id="footer" class="footer-section2">
+
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="col-md-6 col-left">
+          <div class="col-md-6 info">
+            <p>©Habitat 2017</p>
+            <h2>Habitat</h2>
+            <p>Follow us on:</p>
+
+            <div class="row social link">
+              <div class="col-md-10">
+                <div class="col-md-6">
+                  <div class="icon"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" width="48px"></div>
+                </div>
+                <div class="col-md-6 ">
+                  <div class="icon small"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" width="48px"></div>
+                </div>
+              </div>
+              <div class="col-md-10">
+                <div class="col-md-6">
+                  <div class="icon"><img src="https://cdn.worldvectorlogo.com/logos/reddit-alien.svg" width="38px"></div>
+                </div>
+                <div class="col-md-6 ">
+                  <div class="icon small"><img src="https://cdn.worldvectorlogo.com/logos/medium-m-2.svg" width="48px"></div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-md-6 menu">
+            <p>Menu:</p>
+            <ul>
+              <li>About</li>
+              <li>Team</li>
+              <li>FAQ</li>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+
+          <div class="separator hidden-xs hidden-md hidden-sm"></div>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-9 stayup">
+            <h1>Stay up the date</h1>
+            <div class="actions">
+              <form class="form-inline" action="/p;id=2421e96f8f" method="post">
+                <div class="form-group field">
+                  <input class="form-control" type="email" value="" name="EMAIL" placeholder="Email" required id="mce-EMAIL">
+                </div>
+                <div class="form-group">
+                  <button href="register" class='btn btn-success'>Subscribe</a></button>
+                </div>
+              </form>
+            </div>
+
+            <div class="joinChannel">
+              <p>Or join our channels:</p>
+              <a class="btn btn-slack"><i class="fa fa-slack" aria-hidden="true"></i> Join Slack</a>
+              <a class="btn btn-primary"><i class="fa fa-telegram" aria-hidden="true"></i> Join Telegram</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <script src="https://use.fontawesome.com/4d6b6c46eb.js"></script>
+  <script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/countdown.js"></script>
+
+
+
+
+</body>
+
+</html>

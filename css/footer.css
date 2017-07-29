@@ -1,0 +1,158 @@
+.footer-section2{
+  background-image: linear-gradient(-53deg, #8FD3F4 0%, #84FAB0 100%);
+}
+
+.footer-section2 .col-left{
+  background-color: #e2feec;
+  padding: 60px;
+  min-height: 400px;
+}
+
+.footer-section2 .info{
+    font-size: 15px;
+}
+
+.footer-section2  p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-section2 .info h2{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-section2 .stayup{
+    padding-top: 70px;
+    font-size: 15px;
+}
+
+.footer-section2 .stayup .btn-success{
+  background-color: #86f7b6 !important;
+  border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    margin-left: -10px !important;
+    height: 42px;
+    color: #383838;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.footer-section2 .btn-slack{
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  color: white;
+}
+.footer-section2 .joinChannel{
+  padding-top: 30px;
+}
+
+.footer-section2 .stayup h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-section2 .menu p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-section2 .menu{
+    padding-left: 55px;
+}
+
+
+.footer-section2 .social .icon {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  line-height: 45px;
+  display: inline-block;
+}
+
+.footer-section2 .social .icon img {
+  height: 40px;
+  width: auto;
+  display: inline-block;
+}
+
+
+.footer-section2 .social .icon.small img {
+  height: 25px;
+}
+
+
+.footer-section2 ul{
+    list-style: circle outside none;
+}
+
+.footer-section2 ul li{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom:10px;
+}
+
+.footer-section2 .form-inline .form-control {
+
+    height: 42px;
+}
+
+.footer-section2 .separator {
+  width: 120px;
+  height: 400px;
+  position: absolute;
+  left:0px;
+}
+
+.footer-section2 .separator::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color:#e2feec;
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+
+.footer-section2 .link .col-md-6{
+    padding: 20px;
+    text-align: center;
+}
+
+@media (min-width:1024px){
+
+    .footer-section2 .info{
+        border-right: 2px dotted rgba(0, 0, 0, 0.2);
+    }
+
+    .footer-section2 .link .col-md-6:nth-child(2n+1){
+        border-right: 2px dotted rgba(0, 0, 0, 0.2);
+    }
+
+    .footer-section2 .link .col-md-10:nth-child(2n){
+        border-top: 2px dotted rgba(0, 0, 0, 0.2);
+    }
+
+}
+@media (max-width:768px){
+    .footer-section2 .link .col-md-6{
+        float: left;
+    }
+
+    .footer-section2 .stayup {
+      padding-bottom: 60px;
+      text-align: center;
+    }
+
+    .footer-section2 .joinChannel {
+      padding-top: 0;
+    }
+
+    .footer-section2 .field {
+      width: 100%;
+    }
+
+}

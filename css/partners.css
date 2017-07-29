@@ -1,0 +1,70 @@
+.partners-section {
+  background-image: linear-gradient(180deg, #fff 0%, #e2feec 100%) !important;
+  padding-bottom: 100px !important;
+}
+
+.carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+}
+
+.carousel-control {
+  left: -9px;
+  height: 32px;
+  width: 32px;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 60px;
+}
+
+.carousel-control.right {
+  right: -9px;
+}
+
+.carousel-inner {
+  overflow: visible !important;
+}
+
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -45px;
+  margin-right: -19px;
+}
+
+.carousel-indicators li {
+  border: 0px !important;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.carousel-indicators .active {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.partners-section .partner {
+  background-color: white !important;
+  padding: 30px !important;
+  margin: 20px !important;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  width: 93%;
+}
+
+.partners-section .partner img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.partners-section .partner h4 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.partners-section .partner .description {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.partners-section .partner .content {
+  color: #383838;
+}
