@@ -195,7 +195,7 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 }
 
 #navbar .navbar-brand img {
-  height: 80px;
+  height: 30px;
   display: inline-block;
   top: -5px;
   position: relative;
@@ -221,6 +221,11 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   float: left;
   border: none;
 }
+
+#navbar .collapse.right {
+  float: right;
+}
+
 
 #navbar .navbar-default, #navbar .navbar-default .navbar-header {
   background-color: rgba(0, 0, 0, 0);
