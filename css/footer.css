@@ -104,7 +104,7 @@
   width: 120px;
   height: 400px;
   position: absolute;
-  left:0px;
+  left:-2px;
 }
 
 .footer-section2 .separator::before {
@@ -140,6 +140,10 @@
 @media (max-width:768px){
     .footer-section2 .link .col-md-6{
         float: left;
+    }
+
+    .footer-section2 .info {
+      text-align: center;
     }
 
     .footer-section2 .stayup {

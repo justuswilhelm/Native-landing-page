@@ -213,4 +213,25 @@
 }
 
 
+
+#clockdiv {
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
+@media (max-width:768px){
+
+  .header-section #clockdiv {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .clock-wrapper .title, .clock-wrapper .text {
+    text-align: center;
+  }
+
+}
+
 /** --- END COUNTDOWN*/
