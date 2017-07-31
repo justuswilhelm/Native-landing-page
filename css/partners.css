@@ -38,3 +38,8 @@
 .partners-section .partner .content h1,h4{
   font-size: 12px;
 }
+
+.owl-carousel .owl-item img {
+  width: auto;
+  height: 100%;
+}
