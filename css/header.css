@@ -237,3 +237,27 @@
 }
 
 /** --- END COUNTDOWN*/
+
+@media (max-width: 375px){
+  .flex{
+    flex: none;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+  .flex{
+    flex: none;
+    display: inline-flex !important;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 2560px){
+  .header-centered {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .flex {
+    display: inline-flex !important;
+  }
+}

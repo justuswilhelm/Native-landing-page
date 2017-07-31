@@ -144,7 +144,12 @@
 }
 @media (max-width:768px){
     .footer-section2 .link .col-md-6{
-        float: left;
+      float: left;
+      padding-top: 20px;
+      padding-left: 0px;
+    }
+    .rigth-icon{
+      padding-left: 10px !important;
     }
 
     .footer-section2 .info {
@@ -168,4 +173,21 @@
       width: 100%;
     }
 
+    .footer-section2 ul {
+      padding-top: 25px;
+    }
+    
+    .footer-section2 .separator {
+      width: 75px;
+      height: 415px;
+    }
+
 }
+@media (min-width:1024px){
+  .row.social.link {
+    margin-right: -55px;
+  }
+
+}
+
+
