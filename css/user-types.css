@@ -41,10 +41,26 @@
   display: inline-block;
   clear: both;
   margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.user-types-section .tabs .active .box .icon {
+
+  background-color: #78b38e;
+}
+
+
+
+.user-types-section .tabs .box .icon .fa {
+    color: #fff;
+    font-size: 24px;
+    line-height: 60px;
 }
 
 .user-types-section .tabs .box-1 {
   background: url(../img/box-1.svg);
+  height: 160px;
+    background-position-y: -12px;
 }
 
 .user-types-section .tabs .box-2 {
@@ -57,17 +73,69 @@
   background: url(../img/box-3.svg);
 }
 
-.user-types-section .tabs .active.box-1,.user-types-section .tabs .box-1:hover {
+.user-types-section .tabs .active .box-1,.user-types-section .tabs .box-1:hover {
   background: url(../img/box-1-a.svg);
 }
 
-.user-types-section .tabs .active.box-2,.user-types-section .tabs .box-2:hover {
+.user-types-section .tabs .active .box-2,.user-types-section .tabs .box-2:hover {
   background: url(../img/box-2-a.svg);
 }
 
-.user-types-section .tabs .active.box-3,.user-types-section .tabs .box-3:hover {
+.user-types-section .tabs .active .box-3,.user-types-section .tabs .box-3:hover {
   background: url(../img/box-3-a.svg);
 }
+
+
+.user-types-section .details .detail {
+  display: none;
+}
+
+.user-types-section .details .detail.active {
+  display: block;
+}
+
+
+.user-types-section .details .detail .list ul {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-types-section .details .detail .list ul li {
+  margin-bottom: 30px;
+position: relative;
+padding: 10px 10px 10px 40px;
+}
+
+.user-types-section .details .detail .list ul .index{
+
+  background-color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: #67db97;
+    border: 2px solid #67db97;
+    box-sizing: content-box;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+left: 0;
+top: -5px;
+}
+
+.user-types-section .details .detail .list ul .title{
+
+  padding-left: 10px;
+font-size: 16px;
+top: -10px;
+position: relative;
+}
+
+
 
 
 @media (max-width:1024px){

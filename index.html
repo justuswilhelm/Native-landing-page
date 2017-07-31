@@ -46,10 +46,16 @@
         <div class="collapse navbar-collapse navbar-menubuilder right">
 
           <ul class="nav navbar-nav navbar-left">
-            <li><a href="#" class="btn-slides-section">About</a></li>
-            <li><a href="#" class="btn-plans-sections">How it works</a></li>
-            <li><a href="#" class="btn-demo-callback">Team</a></li>
+            <li><a href="#" class="btn-slides-section scroll-to-about">About</a></li>
+            <li><a href="#" class="btn-plans-sections scroll-to-elements">How it works</a></li>
+            <li><a href="#" class="btn-demo-callback scroll-to-team">Team</a></li>
           </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+
+            <li> <button class="btn btn-default btn-round scroll-to-bottom"><i class="fa fa-question" aria-hidden="true"></i></button> </li>
+          </ul>
+
         </div>
       </div>
     </div>
@@ -61,23 +67,27 @@
     <div class="container">
 
       <div class="row tabs ">
-        <div class="wrapper row col-sm-12 col-md-10 col-md-offset-1">
-          <div class="col-sm-5 col-md-4 col-md-offset-1 video">
+        <div class="wrapper row col-sm-12 col-md-12">
+          <!-- <div class="col-sm-5 col-md-4 col-md-offset-1 video">
             <img src="img/video-image.png" style="width: 100%;">
-          </div>
-          <div class="col-sm-7 col-md-7 content">
+          </div> -->
+          <div class="col-sm-6 col-md-6 col-md-offset-3 content">
             <h1 class="title">Reimagining Community Values</h1>
             <h6>Habitat makes cryptocurrencies accessible, supports innovative communities, and grows revolutionary ideas.</h6>
             <div class="actions">
               <form class="form-inline flex" action="/p;id=2421e96f8f" method="post">
                 <div class="form-group flex">
-                  <input class="form-control" type="email" value="" name="EMAIL" placeholder="Email" required id="mce-EMAIL">
+                  <input class="form-control" type="email" value="" name="EMAIL" placeholder="Email" required="" id="mce-EMAIL">
                 </div>
                 <div class="form-group flex">
-                  <button href="register" class='btn btn-success'>Subscribe</a></button>
+                  <button href="register" class="btn btn-success">Subscribe</button>
                 </div>
 
               </form>
+            </div>
+            <div class="row">
+                <button onclick="goto()" class="btn btn-primary mrr">Introduction</button>
+                <button onclick="goto()" class="btn btn-green">Ecosystem</button>
             </div>
           </div>
         </div>
@@ -87,14 +97,15 @@
     <div class="separator3"></div>
   </section>
 
-  <!-- SERVIZI -->
+  <!-- ABOUT -->
   <section id="plans-section" class="plans-section">
 
     <div class="container">
 
       <div class="section-header">
         <h4 class="title">About Habitat</h4>
-        <div class="info">Habitat connects creators with supporters through collaborative networks managed by trusted curators. </br> With Habitat, anyone can get involved in cryptocurrencies and token launches, share their experience, or gather support to launch their great idea.</div>
+        <div class="info">Habitat connects creators with supporters through collaborative networks managed by trusted curators. </br> With Habitat, anyone can get involved in cryptocurrencies and token launches, share their experience, or gather support to launch their
+          great idea.</div>
       </div>
 
       <div class="plans row">
@@ -156,54 +167,123 @@
     </div>
   </section>
 
+  <!-- ELEMENTS -->
   <section id="tabs-section" class="user-types-section">
     <div class="separator"></div>
     <div class="container">
 
       <div class="section-header">
-        <h4 class="title">Habitat's users</h4>
-        <div class="info">description is missing</div>
+        <h4 class="title">Elements of a Habitat</h4>
       </div>
 
       <div class="row wrapper tabs">
-        <div class="tab col-md-4 col-xs-4">
-          <div class="box box-1 active">
-            <div class="icon"><i class="fa fa-email"></i></div>
+        <div class="tab col-md-4 col-xs-4 active">
+          <div class="box box-1 ">
+            <div class="icon"><i class="ico-c ico-1"></i></div>
             <div class="title">Supporters</div>
           </div>
         </div>
         <div class="tab col-md-4 col-xs-4">
           <div class="box box-2">
-            <div class="icon"><i class="fa fa-email"></i></div>
+            <div class="icon"><i class="ico-c ico-2"></i></div>
             <div class="title">Curators</div>
           </div>
         </div>
         <div class="tab col-md-4 col-xs-4">
           <div class="box box-3">
-            <div class="icon"><i class="fa fa-email"></i></div>
+            <div class="icon"><i class="ico-c ico-3"></i></div>
             <div class="title">Creators</div>
           </div>
         </div>
       </div>
 
-      <div class="row detail active animated fadeIn">
 
-        <div class="col-md-6 heading">
-          <h2 class="title mrb">Supporters</h2>
-          <p class="short">Becoming a backer makes it easier to get involved in the crypto-space.  Habitat backers gain access to high quality projects and funding opportunities, which are curated by trusted (verified) experts.  
- </p>
+      <div class="details">
+        <div class="row detail active animated fadeIn">
+
+          <div class="col-md-6 col-md-offset-1 heading">
+            <h2 class="title mrb">Supporters</h2>
+            <p class="short">Becoming a backer makes it easier to get involved in the crypto-space. Habitat backers gain access to high quality projects and funding opportunities, which are curated by trusted (verified) experts.
+            </p>
+          </div>
+
+          <div class="col-md-4 list">
+            <ul >
+              <li>
+                <span class="index">1</span>
+                <span class="title">Connect quality projects with supporters</span>
+              </li>
+              <li>
+                <span class="index">2</span>
+                <span class="title">Build community based on a common vision or ethos</span>
+              </li>
+              <li>
+                <span class="index">3</span>
+                <span class="title">Generate value from their expertise</span>
+              </li>
+            </ul>
+          </div>
+
         </div>
+        <div class="row detail  animated fadeIn">
 
-        <div class="col-md-6 image">
-          <img class="" src="img/flow-1.png" alt="">
+          <div class="col-md-6 col-md-offset-1 heading">
+            <h2 class="title mrb">Creators</h2>
+            <p class="short">Creators use Habitat to find supporters and grow their idea. By becoming a Creator, entrepreneurs and innovators can utilize Habitat to develop their token model, launch their venture, and find supporters invested in their success.
+            </p>
+          </div>
+
+          <div class="col-md-4 list">
+            <ul >
+              <li>
+                <span class="index">1</span>
+                <span class="title">Connect quality projects with supporters</span>
+              </li>
+              <li>
+                <span class="index">2</span>
+                <span class="title">Build community based on a common vision or ethos</span>
+              </li>
+              <li>
+                <span class="index">3</span>
+                <span class="title">Generate value from their expertise</span>
+              </li>
+            </ul>
+          </div>
+
         </div>
+        <div class="row detail animated fadeIn">
 
+          <div class="col-md-6 col-md-offset-1 heading">
+            <h2 class="title mrb">Curators</h2>
+            <p class="short">As trusted experts, curators build collaborative networks by connecting backers to the best opportunities.  Curators find projects and share them with their communities to support the growth of revolutionary ideas.
+            </p>
+          </div>
+
+          <div class="col-md-4 list">
+            <ul >
+              <li>
+                <span class="index">1</span>
+                <span class="title">Connect quality projects with supporters</span>
+              </li>
+              <li>
+                <span class="index">2</span>
+                <span class="title">Build community based on a common vision or ethos</span>
+              </li>
+              <li>
+                <span class="index">3</span>
+                <span class="title">Generate value from their expertise</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
       </div>
+
+
 
     </div>
     <div class="separator green" style="bottom: 0;top: auto;margin-bottom: -150px;"></div>
   </section>
-
 
   <!-- ROADMAP -->
   <section id="roadmap" class="roadmap-section">
@@ -212,7 +292,6 @@
 
     <div class="container">
       <div class="section-header">
-        <div class="info">Missing description</div>
         <h4 class="title">Roadmap</h4>
       </div>
 
@@ -222,31 +301,31 @@
 
         <ul class="roadmap-list">
 
-            <li class="roadmap-item i1">
-              <div class="icon">1</div>
-              <div class="title">January 2017</div>
-              <div class="desc">Research and Concept</div>
-            </li>
-            <li class="roadmap-item i2">
-              <div class="icon">2</div>
-              <div class="title">March 2017</div>
-              <div class="desc">Build Team</div>
-            </li>
-            <li class="roadmap-item i3">
-              <div class="icon">3</div>
-              <div class="title">August 2017</div>
-              <div class="desc">Habitat Dashboard and Token Launch</div>
-            </li>
-            <li class="roadmap-item i4">
-              <div class="icon">4</div>
-              <div class="title">November 2017</div>
-              <div class="desc">Habitat v1 - Additional Habitats created</div>
-            </li>
-            <li class="roadmap-item i5">
-              <div class="icon">5</div>
-              <div class="title">Early 2018</div>
-              <div class="desc">Habitat Templates</div>
-            </li>
+          <li class="roadmap-item i1">
+            <div class="icon">1</div>
+            <div class="title">January 2017</div>
+            <div class="desc">Research and Concept</div>
+          </li>
+          <li class="roadmap-item i2">
+            <div class="icon">2</div>
+            <div class="title">March 2017</div>
+            <div class="desc">Build Team</div>
+          </li>
+          <li class="roadmap-item i3">
+            <div class="icon">3</div>
+            <div class="title">August 2017</div>
+            <div class="desc">Habitat Dashboard and Token Launch</div>
+          </li>
+          <li class="roadmap-item i4">
+            <div class="icon">4</div>
+            <div class="title">November 2017</div>
+            <div class="desc">Habitat v1 - Additional Habitats created</div>
+          </li>
+          <li class="roadmap-item i5">
+            <div class="icon">5</div>
+            <div class="title">Early 2018</div>
+            <div class="desc">Habitat Templates</div>
+          </li>
         </ul>
       </div>
 
@@ -255,7 +334,7 @@
   </section>
 
   <!-- TEAM -->
-  <section id="tab-section-2" class="tab-section green team-section">
+  <section id="team" class="tab-section green team-section">
     <div class="container">
 
       <div class="section-header">
@@ -395,7 +474,7 @@
     </div>
   </section>
 
-    <!-- PARTNERS -->
+  <!-- PARTNERS -->
   <section id="tab-section-3" class="tab-section green partners-section">
     <div class="container">
       <div class="section-header">
@@ -405,7 +484,7 @@
 
       <div class="row">
         <div class="owl-carousel owl-theme">
-          
+
           <div>
             <a href="#">
               <div class="partner">
@@ -481,58 +560,55 @@
     </div>
   </section>
 
-
-
-
   <!-- FOOTER -->
   <section id="footer" class="footer-section2">
 
     <div class="row">
       <div class="col-md-12">
 
-        <div class="col-md-6 col-left">
-          <div class="col-md-6 col-sm-6 info">
-            <p>©Habitat 2017</p>
-            <h2>Habitat</h2>
-            <p>Follow us on:</p>
-
+        <div class="col-sm-6 col-md-6 col-left">
+          <div class="col-sm-6 col-md-6 info">
+              <p>Follow us on:</p>
             <div class="row social link">
               <div class="col-md-10 col-xs-12">
                 <div class="col-md-6 col-xs-6">
-                  <div class="icon"><img src="img/social/" width="48px"></div>
+                  <a class="icon" href="https://medium.com/habitat-ventures" target="_blank"><img src="img/social/medium.svg" width="48px"></a>
                 </div>
                 <div class="col-md-6 col-xs-6">
-                  <div class="icon small"><img src="img/social/twitter.png" width="48px"></div>
+                  <a class="icon small" href="https://twitter.com/cryptohabitat" target="_blank"><img src="img/social/twitter.png" width="48px"></a>
                 </div>
               </div>
               <div class="col-md-10 col-xs-12">
                 <div class="col-md-6 col-xs-6">
-                  <div class="icon"><img src="img/social/reddit.svg" width="38px"></div>
+                  <a class="icon" href="https://www.reddit.com/r/HabitatVentures/" target="_blank"><img src="img/social/reddit.svg" width="38px"></a>
                 </div>
                 <div class="col-md-6 col-xs-6">
-                  <div class="icon small"><img src="img/social/medium.svg" width="48px"></div>
+                  <a class="icon small" href="https://www.linkedin.com/company-beta/11217512/" target="_blank"><img src="img/social/linkedin.png" width="38px"></a>
                 </div>
               </div>
             </div>
 
+        <div class="col-xs-12">
+            <p class="mrt">© Habitat 2017</p>
+        </div>
+
 
           </div>
-          <div class="col-md-6 menu hidden-xs">
+          <div class="col-sm-6 col-md-6 menu hidden-xs">
             <p>Menu:</p>
             <ul>
-              <li>About</li>
-              <li>Team</li>
-              <li>How it works</li>
+              <li><a class=" scroll-to-about" href="#">About</a></li>
+              <li ><a class="scroll-to-elements" href="#">How it works</a></li>
+              <li ><a class="scroll-to-team"  href="#">Team</a></li>
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-4">
+        <div class="col-sm-6 col-md-6 col-right">
 
-          <div class="separator hidden-xs hidden-md hidden-sm"></div>
-          <div class="col-md-3">
-          </div>
+          <div class="separator hidden-xs "></div>
+
           <div class="col-md-9 stayup">
-            <h1>Stay up the date</h1>
+            <h1>Get all the info</h1>
             <div class="actions">
               <form class="form-inline" action="/p;id=2421e96f8f" method="post">
                 <div class="form-group field">
@@ -545,9 +621,9 @@
             </div>
 
             <div class="joinChannel">
-              <p>Or join our channels:</p>
-              <a class="btn btn-slack"><i class="fa fa-slack" aria-hidden="true"></i> Join Slack</a>
-              <a class="btn btn-primary"><i class="fa fa-telegram" aria-hidden="true"></i> Join Telegram</a>
+              <p>And join our channels:</p>
+              <a class="btn btn-slack" href="https://discord.gg/hFdspvF" target="_blank"> Join Discord</a>
+              <a class="btn btn-primary" href="https://t.me/habitatventures" target="_blank"> Join Telegram</a>
             </div>
           </div>
 
@@ -567,6 +643,7 @@
   <script src="js/vendor/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="js/owl-carousel-init.js"></script>
+  <script src="js/main.js"></script>
 
 
 

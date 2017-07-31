@@ -8,6 +8,11 @@
   min-height: 400px;
 }
 
+
+.footer-section2 .col-right {
+  padding-left: 130px;
+}
+
 .footer-section2 .info{
     font-size: 15px;
 }
@@ -73,7 +78,7 @@
 }
 
 .footer-section2 .social .icon img {
-  height: 40px;
+  height: 30px;
   width: auto;
   display: inline-block;
 }
@@ -144,6 +149,10 @@
 
     .footer-section2 .info {
       text-align: center;
+    }
+
+    .footer-section2 .col-right {
+      padding-left: 15px;
     }
 
     .footer-section2 .stayup {
