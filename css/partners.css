@@ -32,4 +32,9 @@
 .partners-section .partner .content {
   color: #383838;
   float: right;
+  font-size: 12px;
+}
+
+.partners-section .partner .content h1,h4{
+  font-size: 12px;
 }
