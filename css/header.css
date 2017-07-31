@@ -251,7 +251,7 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 2560px){
+@media (min-width: 426px) and (max-width: 1450px){
   .header-centered {
     width: 100%;
     margin: 0px;
