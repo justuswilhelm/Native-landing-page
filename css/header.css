@@ -251,7 +251,7 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 1450px){
+@media (min-width: 426px) and (max-width: 1024px){
   .header-centered {
     width: 100%;
     margin: 0px;
@@ -259,5 +259,11 @@
 
   .flex {
     display: inline-flex !important;
+  }
+}
+
+@media (min-width: 1450px){
+  .flex {
+    display: auto;
   }
 }
