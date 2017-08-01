@@ -1022,7 +1022,6 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   padding: 30px 30px 65px 30px;
   text-align: left;
   height: 100%;
-  display: flex;
   width: 100%;
   flex-direction: column;
   color: rgba(0, 0, 0, 0.5);
