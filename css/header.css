@@ -240,7 +240,7 @@
 
 @media (max-width: 375px){
   .flex{
-    flex: none;
+    flex: hack;
   }
 }
 
