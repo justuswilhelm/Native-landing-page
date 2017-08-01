@@ -237,10 +237,15 @@
 }
 
 /** --- END COUNTDOWN*/
-
-@media (max-width: 375px){
+@media (max-width: 320px){
   .flex{
     flex: hack;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px){
+  .flex{
+    flex: none;
   }
 }
 
