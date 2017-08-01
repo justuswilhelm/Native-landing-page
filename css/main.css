@@ -209,7 +209,7 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 }
 
 #navbar .navbar-brand img {
-  height: 45px;
+  height: 35px;
   display: inline-block;
   top: -5px;
   position: relative;
