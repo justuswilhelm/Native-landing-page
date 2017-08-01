@@ -1,8 +1,21 @@
 .plans-section .plans .plan.featured{
   padding-top:0px !important;
-  margin: 20px !important;
   box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15) !important;
 }
+
+@media (max-width:425px){
+  .plans-section .plans .plan.featured {
+    margin: 20px !important;
+  }
+}
+
+@media (min-width: 769px){
+  .plans-section .plans .plan.featured {
+    margin: 20px !important;
+  }
+}
+
+
 
 .plans-section .plans .plan .head{
   min-height: 150px !important;
