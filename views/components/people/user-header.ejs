@@ -1,0 +1,11 @@
+<div class="image-bg-fluid-height" 
+	<% if( "undefined" !== typeof user.coverImageUrl && user.coverImageUrl !== "" ) { %>
+		style="background: url('<%= user.coverImageUrl %>') no-repeat center center scroll"
+	<% } %>
+	>
+    <% if(user.imageUrl!==undefined) { %>
+    	<img class="img-responsive img-center" src="<%= user.imageUrl %>" alt="<%= user.fullName %>">
+    <% } else { %>
+        <img src="/img/team/pic-1.png">
+    <% } %>
+</div>

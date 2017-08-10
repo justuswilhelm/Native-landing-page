@@ -1,0 +1,21 @@
+<div class="detail-box">
+	<div class="row">
+		<div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+			<h1><%= habitat.name %> <% if(habitat.approved) { %><i class="verified fa fa-check" title="Verified habitat"></i><% } %></i></h1>
+			<h6>Web 3.0</h6>
+			
+			<% if("undefined" !== typeof habitat.facebookUrl) { %>
+	            <a href="" class="btn btn-height btn-social-icon btn-facebook"><span class="fa fa-facebook"</span></a>
+	        <% } %>
+	        <% if("undefined" !== typeof habitat.twitterUrl) { %>
+	            <a href="" class="btn btn-height btn-social-icon btn-twitter"><span class="fa fa-twitter"</span></a>
+	        <% } %>
+	        <% if("undefined" !== typeof habitat.linkedinUrl) { %>
+	            <a href="" class="btn btn-height btn-social-icon btn-linkedin"><span class="fa fa-linkedin"</span></a>
+	        <% } %>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
+			<p><%= habitat.description %></p>
+		</div>
+	</div>
+</div>
