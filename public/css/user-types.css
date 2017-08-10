@@ -198,6 +198,12 @@ position: relative;
 
 }
 
+@media (max-width: 425px){
+  .dashboard-gif{
+    width: 100%;
+  }
+}
+
 
 
 
