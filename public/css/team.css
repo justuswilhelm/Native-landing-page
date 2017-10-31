@@ -1,0 +1,76 @@
+.team-section .profile {
+  margin-top: 25px;
+}
+
+.team-section .profile h1 {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.team-section .profile h2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.team-section .profile p {
+  font-weight: 400;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.team-section .profile .img-responsive {
+  opacity: 1;
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+}
+
+.team-section .profile i {
+  font-size: 0.9em;
+  width: 1.4em;
+  text-align: center;
+  line-height: 1.4em;
+  background: rgba(0, 0, 0, 0.1);
+  ;
+  color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.8em;
+}
+
+.team-section .line {
+  border-top: 2px dotted rgba(0, 0, 0, 0.1);
+}
+
+.team-section .row {
+  padding-bottom: 40px;
+}
+
+.profile .profile-img {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .team-section {}
+  .team-section .profile {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+	.team-section .profile > * {
+		text-align: center;
+	}
+  .team-section .profile .img-responsive {
+    margin: 0 auto;
+  }
+}

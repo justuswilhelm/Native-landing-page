@@ -1,0 +1,63 @@
+<section class="habitats-list">
+<div class="section-header">
+    <h4 class="title">Our Habitats</h4>
+</div>
+<div class="container">
+    <div class="row">
+        <% for(var i=0; i<habitats.length; i++) {%>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="wrapper-card">
+                            
+                    <div class="card radius shadowDepth1">
+                        <div class="card__image border-tlr-radius">
+                            <% if( "undefined" !== typeof habitats[i].imageUrl && habitats[i].imageUrl!=='' ) { %>
+                                <img src="<%= habitats[i].imageUrl %>">
+                            <% } else { %>
+                                <img src="/img/crypto-cover.jpg">
+                            <% } %>
+                        </div>
+
+                        <div class="card__content card__padding">
+                            <!--<div class="card__share">
+                                <div class="card__social">  
+                                    <a class="share-icon facebook" href="https://www.facebook.com/cryptodex"><span class="fa fa-facebook"></span></a>
+                                    <a class="share-icon twitter" href="https://twitter.com/CryptodexLLC"><span class="fa fa-twitter"></span></a>
+                                    <a class="share-icon medium" href="https://medium.com/cryptodex"><span class="fa fa-medium"></span></a>
+                                </div>
+
+                                <a id="share" class="share-toggle share-icon" href="#"></a>
+                            </div>-->
+
+                            <div class="card__meta">
+                                <a href="/habitats/<%= habitats[i]._id %>"><%= habitats[i].name %></a>
+                                <!--<time>17th March</time>-->
+                            </div>
+
+                            <article class="card__article">
+                                <h4><a href="#">Web 3.0</a></h4>
+
+                                <p><%= habitats[i].description %></p>
+                            </article>
+                        </div>
+
+                        <div class="card__action">
+                            
+                            <div class="card__author">
+                                <% if( "undefined" !== typeof habitats[i].owner.imageUrl && habitats[i].owner.imageUrl!=='' ) { %>
+                                    <img src="<%= habitats[i].owner.imageUrl %>">
+                                <% } else { %>
+                                    <img src="/img/team/pic-1.png">
+                                <% } %>
+                                <div class="card__author-content">
+                                    By <a href="/people/<%= habitats[i].owner._id %>"><%= habitats[i].owner.fullName %></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        <% } %>
+    </div>
+</div>
+</section>

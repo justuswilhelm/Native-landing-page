@@ -1,0 +1,51 @@
+.plans-section .plans .plan.featured{
+  padding-top:0px !important;
+  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15) !important;
+}
+
+@media (max-width:425px){
+  .plans-section .plans .plan.featured {
+    margin: 20px !important;
+  }
+}
+
+@media (min-width: 769px){
+  .plans-section .plans .plan.featured {
+    margin: 20px !important;
+  }
+}
+
+
+
+.plans-section .plans .plan .head{
+  min-height: 150px !important;
+  padding: 0px !important;
+}
+
+.plans-section .plans .plan .head .fa{
+  color: rgba(0,0,0,0.6) !important;
+}
+
+.plans-section .plans .plan .head .title{
+  color: rgba(0,0,0,0.6) !important;
+}
+
+.color1{
+  background-color:#e2feec !important;
+}
+
+.color2{
+  background-color:#eef9fe !important;
+}
+
+.plans-section .plans .plan .head .color2{
+  min-height: 150px !important;
+}
+
+.plans-section .plans .plan .content{
+  text-align: center !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  padding-bottom: 20px !important;
+  color: rgba(0,0,0,0.5) !important;
+}

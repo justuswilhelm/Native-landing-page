@@ -1,0 +1,48 @@
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+  background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    padding: 50px 0;
+}
+
+.image-bg-fixed-height {
+  background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+  margin: 0 auto;
+  border-radius: 50%;
+  width:250px;
+  background-color: #eeeeee;
+}
+
+.verified {
+  color: green;
+}
+
+.detail-box {
+    border: solid 1px;
+    border-color: #eee;
+    padding: 10px;
+    padding-left: 40px;
+    margin: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 10px -2px rgba(0,0,0,0.75);
+}
+
+/*icon part -> https://lipis.github.io/bootstrap-social/*/
+.btn-height {
+  height: 34px !important;
+}

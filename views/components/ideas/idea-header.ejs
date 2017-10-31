@@ -1,0 +1,11 @@
+<div class="image-bg-fluid-height" 
+	<% if( "undefined" !== typeof idea.coverImageUrl && idea.coverImageUrl !== '' ) { %>
+		style="background: url('<%= idea.coverImageUrl %>') no-repeat center center scroll"
+	<% } %>
+	>
+    <% if("undefined" !== typeof idea.imageUrl && idea.imageUrl!=='') { %>
+    	<img class="img-responsive img-center" src="<%= idea.imageUrl %>" alt="<%= idea.fullName %>">
+    <% } else { %>
+        <img src="/img/team/pic-1.png">
+    <% } %>
+</div>

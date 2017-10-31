@@ -1,0 +1,65 @@
+<section class="ideas-list">
+    <div class="section-header">
+        <h4 class="title">Our Ideas</h4>
+    </div>
+    <div class="container">
+        <div class="row">
+            <% for(var i=0; i< ideas.length; i++) {%>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="wrapper-card">
+                                
+                        <div class="card radius shadowDepth1">
+                            <div class="card__image border-tlr-radius">
+                                <% if("undefined" !== typeof ideas[i].imageUrl && ideas[i].imageUrl!=='') { %>
+                                    <img src="<%= ideas[i].imageUrl %>">
+                                <% } else { %>
+                                    <img src="/img/team/pic-1.png">
+                                <% } %>
+                            </div>
+
+                            <div class="card__content card__padding">
+                                <div class="card__share">
+                                    <div class="card__social">  
+                                        <% if(ideas[i].facebookUrl!==undefined) { %>
+                                            <a class="share-icon facebook" href="<%- ideas[i].facebookUrl %>"><span class="fa fa-facebook"></span></a>
+                                        <% } %>
+                                        <% if(ideas[i].twitterUrl!==undefined) { %>
+                                            <a class="share-icon twitter" href="<%- ideas[i].twitterUrl %>"><span class="fa fa-twitter"></span></a>
+                                        <% } %>
+                                        <% if(ideas[i].linkedinUrl!==undefined) { %>
+                                            <a class="share-icon linkedin" href="<%- ideas[i].linkedinUrl %>"><span class="fa fa-linkedin"></span></a>
+                                        <% } %>
+                                    </div>
+
+                                    <a id="share" class="share-toggle share-icon" href="#"></a>
+                                </div>
+
+                                <div class="card__meta">
+                                    <a href="/ideas/<%= ideas[i]._id %>"><%= ideas[i].name %></a>
+                                    <!--<time>170.000 ETH</time>-->
+                                </div>
+
+                                <article class="card__article">
+                                    <h4><a href="#"><strong>Launch on:</strong> <%= ideas[i].launchDate %></a></h4>
+
+                                    <p><%= ideas[i].description %></p>
+                                </article>
+                            </div>
+
+                            <div class="card__action">
+                                
+                                <div class="card__author">
+                                    <img src="https://www.bancor.network/static/images/team/bernard.png" alt="user">
+                                    <div class="card__author-content">
+                                        By <a href="/people/<%= ideas[i].owner._id %>"><%= ideas[i].owner.fullName %></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </div>
+</section>

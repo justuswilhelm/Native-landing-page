@@ -1,0 +1,62 @@
+<section class="people-list">
+<div class="section-header">
+    <h4 class="title">Our People</h4>
+</div>
+<div class="container">
+    <div class="row">
+        <% for(var i=0; i< users.length; i++) {%>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="wrapper-card">
+                            
+                    <div class="card radius shadowDepth1">
+                        <div class="card__image border-tlr-radius">
+                            <% if("undefined" !== typeof users[i].imageUrl && users[i].imageUrl!=='') { %>
+                                <img src="<%= users[i].imageUrl %>">
+                            <% } else { %>
+                                <img src="/img/team/pic-1.png">
+                            <% } %>
+                        </div>
+
+                        <div class="card__content card__padding">
+                            <div class="card__share">
+                                <div class="card__social">
+                                    <% if(users[i].facebookUrl!==undefined) { %>
+                                        <a class="share-icon facebook" href="<%- users[i].facebookUrl %>"><span class="fa fa-facebook"></span></a>
+                                    <% } %>
+                                    <% if(users[i].twitterUrl!==undefined) { %>
+                                        <a class="share-icon twitter" href="<%- users[i].twitterUrl %>"><span class="fa fa-twitter"></span></a>
+                                    <% } %>
+                                    <% if(users[i].linkedinUrl!==undefined) { %>
+                                        <a class="share-icon linkedin" href="<%- users[i].linkedinUrl %>"><span class="fa fa-linkedin"></span></a>
+                                    <% } %>
+                                    <a class="share-icon medium" href="https://medium.com/cryptodex"><span class="fa fa-medium"></span></a>
+                                </div>
+
+                                <a id="share" class="share-toggle share-icon" href="#"></a>
+                            </div>
+
+                            <div class="card__meta">
+                                <a href="/people/<%= users[i]._id %>"><%= users[i].fullName %></a>
+                                <!--<time>17th March</time>-->
+                            </div>
+
+                            <article class="card__article">
+                                <h4><a href="#"><%= users[i].primaryIntent %></a></h4>
+
+                                <% if(users[i].bio!==undefined) { %>
+                                    <p><% users[i].bio %></p>
+                                <% } else { %>
+                                    <!--<p>This user decided to not share his story.</p>-->
+                                <% } %>
+                                
+                            </article>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        <% } %>
+    </div>
+</div>
+</section>
