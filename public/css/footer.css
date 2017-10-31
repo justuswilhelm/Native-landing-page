@@ -32,17 +32,6 @@
     font-size: 15px;
 }
 
-.footer-section2 .stayup .btn-success{
-  background-color: #86f7b6 !important;
-  border-bottom-left-radius: 0px !important;
-    border-top-left-radius: 0px !important;
-    margin-left: -10px !important;
-    height: 42px;
-    color: #383838;
-    font-weight: 500;
-    line-height: 28px;
-}
-
 .footer-section2 .btn-slack{
   background-color: rgba(0, 0, 0, 0.7) !important;
   color: white;
