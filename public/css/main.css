@@ -26,6 +26,9 @@ body {
   overflow-x: hidden;
 }
 
+h4 {
+  font-size: 28px;
+}
 
 /*
 //  MAIN
@@ -128,6 +131,10 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   margin-bottom: 30px;
 }
 
+.pb2 {
+  padding-bottom: 5%;
+}
+
 .mrr.x2 {
   margin-right: 30px;
 }
@@ -137,11 +144,17 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 }
 
 .section-header {
-  width: 100%;
   color: #858B95;
+  display: block;
+  clear: both;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  padding: 5%;
 }
 
 .section-header .title {
+  color: #009499;
   display: block;
   clear: both;
   font-size: 28px;
@@ -498,10 +511,6 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   font-weight: 300;
 }
 
-.tab-section .section-header .title {
-  color: #03A9F4;
-}
-
 .tab-section.green {
   background-image: linear-gradient(-179deg, #fff 5%, #FFFFFF 78%);
 }
@@ -523,11 +532,6 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 .tab-section.green .detail .heading .title {
   color: #009499;
 }
-
-.tab-section.green .section-header .title {
-  color: #009499;
-}
-
 
 #tab-section-3 {
   margin-bottom: -2px;

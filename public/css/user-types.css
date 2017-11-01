@@ -1,3 +1,11 @@
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
 .user-types-section {
 
   position: relative;
@@ -119,25 +127,61 @@
 .user-types-section .details .detail .list ul li {
   margin-bottom: 30px;
   position: relative;
-  padding: 10px 10px 10px 40px;
+  padding: 0px 10px 10px 40px;
 }
 
-.user-types-section .details .detail .list ul .index {
+.user-types-section .details .detail .list ul .orange {
+    color: #ed7234;
+    border: 2px solid #ed7234;
     background-color: #fff;
     width: 30px;
     height: 30px;
     text-align: center;
     line-height: 30px;
     font-size: 18px;
-    color: #009499;
-    border: 2px solid #009499;
     box-sizing: content-box;
     display: inline-block;
     overflow: hidden;
     border-radius: 50%;
     position: absolute;
-left: 0;
-top: -5px;
+    left: 0;
+    top: -5px;
+}
+
+.user-types-section .details .detail .list ul .pink {
+    color: #eb6468;
+    border: 2px solid #eb6468;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    box-sizing: content-box;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.user-types-section .details .detail .list ul .blue {
+    color: #3f76a8;
+    border: 2px solid #3f76a8;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    box-sizing: content-box;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -5px;
 }
 
 .user-types-section .details .detail .list ul .title{
@@ -184,7 +228,7 @@ position: relative;
   }
 
   .user-types-section .detail .list{
-    padding-top: 40%;
+    padding-top: 5%;
   }
 
   .user-types-section .detail .image{
@@ -262,13 +306,32 @@ padding: 10px 10px 10px 40px;
     position: relative;
 }
 
-
-
 .user-types-section .detail .title{
-  color: #009499;
   font-size: 24px;
   margin-bottom: 20%;
   margin-top: 20%;
+}
+
+.islands {
+  margin-top: 25%;
+}
+
+.micronation {
+  margin-top: 20%;
+  color: #3f76a8;
+  font-size: 20px;
+}
+
+.festival {
+  margin-top: 20%;
+  color: #ed7234;
+  font-size: 20px;
+}
+
+.charity {
+  margin-top: 20%;
+  color: #eb6468;
+  font-size: 20px;
 }
 
 .user-types-section .detail .short{
