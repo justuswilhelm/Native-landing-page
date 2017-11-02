@@ -24,6 +24,9 @@
   letter-spacing: 1px;
   font-weight: 300;
 }
+@media (max-width: 768px) {  .header-section .container h6 {
+    font-size: 14px;
+  }
 
 .header-section .container {
   position: relative;

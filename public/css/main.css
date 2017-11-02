@@ -3,6 +3,7 @@
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,900');
+@import url('mobile.css');
 @import url('rain.css');
 @import url('header.css');
 @import url('about.css');
@@ -24,10 +25,6 @@ body {
   font-family: "Montserrat", Helvetica !important;
   color: #43464C;
   overflow-x: hidden;
-}
-
-h4 {
-  font-size: 28px;
 }
 
 /*
