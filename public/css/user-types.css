@@ -7,7 +7,6 @@
 }
 
 .user-types-section {
-
   position: relative;
 }
 
@@ -104,11 +103,6 @@
   background: url(../img/box-3-a.svg);
 }
 
-.user-types-section .user-img {
-  max-width: 450px;
-  }
-
-
 .user-types-section .details .detail {
   display: none;
 }
@@ -195,7 +189,6 @@ position: relative;
 @media (max-width:1024px){
 
   .user-types-section .detail .heading{
-    text-align: center;
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 20%;
@@ -222,14 +215,12 @@ position: relative;
     padding-right: 45px;
     padding-top: 15%;
   }
-
-  .user-types-section .detail .list{
-    padding-top: 5%;
-  }
-
   .user-types-section .detail .image{
     padding:0 100px;
     text-align: left;
+  }
+  .user-types-section .detail .list{
+    padding-top: 20%;
   }
 
   .user-types-section .detail .image img{
@@ -250,7 +241,13 @@ position: relative;
   .user-types-section .tabs .tab {
     height: 150px;
   }
-
+  .user-types-section {
+    padding: 50px 0 50px 0 !important;
+  }
+  .user-types-section .detail .list{
+    padding-top: 10%;
+    padding-left: 10%;
+  }
   .user-types-section .tabs .box,
   .user-types-section .tabs .box:hover {
     background-image: none !important;
@@ -258,6 +255,16 @@ position: relative;
   .islands {
     margin-top: 25%;
     height: 60%;
+  }
+  .right {
+    text-align: center;
+    margin-bottom: 8%;
+  }
+
+  .left {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -20%;
   }
 }
 .dashboard-gif{
@@ -315,21 +322,18 @@ padding: 10px 10px 10px 40px;
 }
 
 .micronation {
-  margin-top: 20%;
   color: #3f76a8;
   font-size: 20px;
   font-weight: 500;
 }
 
 .festival {
-  margin-top: 20%;
   color: #ed7234;
   font-size: 20px;
   font-weight: 500;
 }
 
 .charity {
-  margin-top: 20%;
   color: #eb6468;
   font-size: 20px;
   font-weight: 500;

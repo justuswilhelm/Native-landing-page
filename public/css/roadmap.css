@@ -106,9 +106,6 @@
 }
 
 @media (max-width:768px) {
-  .roadmap-section .roadmap-line {
-    display: none;
-  }
   .roadmap-section .roadmap-list {
     width: 100%;
     text-align: center;

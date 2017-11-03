@@ -161,6 +161,16 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   padding: 5%;
 }
 
+@media (max-width: 768px) {
+  .section-header h4 {
+    font-size: 20px !important;
+  }
+  .section-header h3 {
+    font-size: 18px !important;
+  }
+}
+
+
 .section-header .title {
   color: #009499;
   display: block;
