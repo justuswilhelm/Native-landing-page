@@ -8,11 +8,6 @@
   color: white;
 }
 
-.header-centered {
-  text-align: center;
-  margin-bottom: 20%;
-}
-
 .header-section .container {
   position: relative;
   display: flex;

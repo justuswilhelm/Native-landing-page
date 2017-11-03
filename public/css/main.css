@@ -443,7 +443,9 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 .tab-section .tabs .wrapper {
   margin: 0 auto;
   margin-top: 22%;
+  margin-bottom: 20%;
   float: none;
+  text-align: center;
 }
 
 .tab-section .tabs .tab {
@@ -547,9 +549,13 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   z-index: 1;
 }
 
+@media (max-width:2068px) {
+  .tab-section .tabs .wrapper {
+    margin-top: 30%;
+  }
+}
 @media (max-width:768px) {
   .tab-section .tabs .wrapper {
-
     text-align: center;
   }
 }
