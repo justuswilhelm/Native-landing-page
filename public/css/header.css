@@ -8,6 +8,11 @@
   color: white;
 }
 
+.header-centered {
+  text-align: center;
+  margin-bottom: 20%;
+}
+
 .header-section .container {
   position: relative;
   display: flex;
@@ -242,7 +247,6 @@
 
 }
 
-/** --- END COUNTDOWN*/
 @media (max-width: 320px){
   .flex{
     flex: hack;

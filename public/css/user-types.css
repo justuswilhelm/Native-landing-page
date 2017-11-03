@@ -314,24 +314,28 @@ padding: 10px 10px 10px 40px;
 
 .islands {
   margin-top: 25%;
+  height: 150%;
 }
 
 .micronation {
   margin-top: 20%;
   color: #3f76a8;
   font-size: 20px;
+  font-weight: 500;
 }
 
 .festival {
   margin-top: 20%;
   color: #ed7234;
   font-size: 20px;
+  font-weight: 500;
 }
 
 .charity {
   margin-top: 20%;
   color: #eb6468;
   font-size: 20px;
+  font-weight: 500;
 }
 
 .user-types-section .detail .short{

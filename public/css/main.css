@@ -141,10 +141,21 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 }
 
 .section-header {
-  color: #858B95;
+  color: #47a391;
   display: block;
   clear: both;
   font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  padding: 5%;
+}
+
+.section-header h4 {
+  color: #2c5e5f !important;
+  display: block;
+  clear: both;
+  line-height: 1.3;
+  font-size: 26px !important;
   font-weight: 500;
   text-align: center;
   padding: 5%;
@@ -431,7 +442,7 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 
 .tab-section .tabs .wrapper {
   margin: 0 auto;
-  margin-top: 16%;
+  margin-top: 22%;
   float: none;
 }
 
@@ -954,10 +965,6 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 /*
 //  TAB SECTION
 */
-
-.plans-section {
-  padding: 30px 0 60px;
-}
 
 .plans-section .plans {
   background-color: #fff;
