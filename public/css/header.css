@@ -1,8 +1,11 @@
 .header-section {
-  background-image: linear-gradient(-53deg, #84FAB0 0%, #8FD3F4 100%) !important;
-  color: #858B95;
+  background-image: url(/img/jungle_FINAL.svg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
   color: white;
-  font-size: 12px;
 }
 
 .header-section .container {
@@ -21,6 +24,9 @@
   letter-spacing: 1px;
   font-weight: 300;
 }
+@media (max-width: 768px) {  .header-section .container h6 {
+    font-size: 14px;
+  }
 
 .header-section .container {
   position: relative;
@@ -236,7 +242,6 @@
 
 }
 
-/** --- END COUNTDOWN*/
 @media (max-width: 320px){
   .flex{
     flex: hack;

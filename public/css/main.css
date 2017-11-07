@@ -3,6 +3,7 @@
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,900');
+@import url('mobile.css');
 @import url('rain.css');
 @import url('header.css');
 @import url('about.css');
@@ -16,31 +17,43 @@
 @import url('people.css');
 @import url('detail.css');
 @import url('bootstrap-social.css');
+@font-face { font-family: "Alte DIN";
+src: url("css/fonts/Alte-DIN-1451-Mittelschrift-gepraegt.ttf");
+}
+
+
+
 html {
   overflow-x: hidden;
 }
 
 body {
-  font-family: "Montserrat", Helvetica !important;
+  font-family: "Alte DIN", "Montserrat", Helvetica !important;
   color: #43464C;
   overflow-x: hidden;
 }
-
 
 /*
 //  MAIN
 */
 
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
 .btn {
   border: none;
   border-radius: 4px;
-  font-size: 11px;
+  font-size: 16px;
   height: 42px;
   text-transform: auto;
   line-height: 30px;
   font-weight: 400;
   text-shadow: none;
-  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.20);
+  box-shadow: 10px 6px 20px rgba(0, 0, 0, 0.20);
   letter-spacing: 1px;
   outline: none !important;
 }
@@ -50,17 +63,27 @@ body {
   opacity: 0.6;
 }
 
+.btn:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  opacity: 2;
+}
+
 .btn.btn-primary {
-  background: #03A9F4;
+  background: #009499;
+  color: white;
 }
 
 .btn.btn-success {
-  background: rgba(105, 105, 105, 0.8);
+  background: rgb(235, 100, 104);
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  margin-left: -20%;
+  height: 38px;
 }
 
 .btn.btn-green {
-    background-color: #86f7b6 !important;
-    color: #383838;
+  background-color: #2c5e5f !important;
+  color: white;
 }
 
 .btn.btn-default {
@@ -100,7 +123,7 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 }
 
 .mrr {
-  margin-right: 15px;
+  margin: 15px;
 }
 
 .mrl {
@@ -115,6 +138,10 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   margin-bottom: 30px;
 }
 
+.pb2 {
+  padding-bottom: 5%;
+}
+
 .mrr.x2 {
   margin-right: 30px;
 }
@@ -124,17 +151,44 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 }
 
 .section-header {
-  padding: 30px 0px;
-  text-align: center;
-  width: 100%;
-  color: #858B95;
-}
-
-.section-header .title {
+  color: #47a391;
   display: block;
   clear: both;
   font-size: 28px;
   font-weight: 500;
+  text-align: center;
+  padding: 5%;
+}
+
+.section-header h4 {
+  color: #2c5e5f !important;
+  display: block;
+  clear: both;
+  line-height: 1.3;
+  font-size: 26px !important;
+  font-weight: 500;
+  text-align: center;
+  padding: 5%;
+}
+
+@media (max-width: 768px) {
+  .section-header h4 {
+    font-size: 20px !important;
+  }
+  .section-header h3 {
+    font-size: 18px !important;
+  }
+}
+
+
+.section-header .title {
+  color: #009499;
+  display: block;
+  clear: both;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  padding: 5%;
 }
 
 .section-header .info {
@@ -321,13 +375,13 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 }
 
 #navbar.navbar-default ul>li>a {
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
   position: relative;
   text-shadow: none;
 }
 
 #navbar.navbar-default ul>li>a:focus, #navbar.navbar-default ul>li>a:active {
-  background: rgba(0, 0, 0, 0.0);
+  background: white;
   opacity: 1;
 }
 
@@ -408,7 +462,10 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 
 .tab-section .tabs .wrapper {
   margin: 0 auto;
+  margin-top: 22%;
+  margin-bottom: 20%;
   float: none;
+  text-align: center;
 }
 
 .tab-section .tabs .tab {
@@ -484,36 +541,27 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   font-weight: 300;
 }
 
-.tab-section .section-header .title {
-  color: #03A9F4;
-}
-
 .tab-section.green {
   background-image: linear-gradient(-179deg, #fff 5%, #FFFFFF 78%);
 }
 
 .tab-section.green .tabs .tab.active {
-  color: #67db97;
+  color: #009499;
 }
 
 .tab-section.green .tabs .tab:hover:before {
-  color: #67db97;
+  color: #009499;
   background: rgba(103, 219, 151, 0.15);
 }
 
 .tab-section.green .tabs .tab.active:before {
-  color: #67db97;
+  color: #009499;
   background: rgba(103, 219, 151, 0.15);
 }
 
 .tab-section.green .detail .heading .title {
-  color: #67db97;
+  color: #009499;
 }
-
-.tab-section.green .section-header .title {
-  color: #67db97;
-}
-
 
 #tab-section-3 {
   margin-bottom: -2px;
@@ -521,9 +569,13 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   z-index: 1;
 }
 
+@media (max-width:2068px) {
+  .tab-section .tabs .wrapper {
+    margin-top: 30%;
+  }
+}
 @media (max-width:768px) {
   .tab-section .tabs .wrapper {
-
     text-align: center;
   }
 }
@@ -939,10 +991,6 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 /*
 //  TAB SECTION
 */
-
-.plans-section {
-  padding: 30px 0 60px;
-}
 
 .plans-section .plans {
   background-color: #fff;

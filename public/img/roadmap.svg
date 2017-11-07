@@ -1,30 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1340px" height="524px" viewBox="0 0 1340 524" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1261px" height="510px" viewBox="0 0 1261 510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 7</title>
+    <title>roadmap</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ROADMAP" transform="translate(-51.000000, -488.000000)">
-            <g id="Group-4" transform="translate(51.000000, 306.000000)">
-                <g id="Group-7" transform="translate(0.000000, 184.000000)">
-                    <g id="Group-5" transform="translate(91.000000, 0.000000)">
-                        <path d="M10,113.5 C10,113.5 188.845025,146.65344 300.5,113.5 C412.154975,80.3465596 470.757331,-5.68434189e-14 560.265015,-5.68434189e-14 C637.432349,-5.68434189e-14 715.607877,83.6568833 821.5,113.5 C927.392123,143.343117 1110.53003,113.5 1110.53003,113.5 C1110.53003,113.5 1193.24132,100.502788 1221,150 C1248.75868,199.497212 1247,253.570726 1247,297.3172 C1247,334.116888 1248.99621,389.313545 1221,425 C1193.00379,460.686455 1182.91714,479.062237 1110.53003,479.062237 C1038.14292,479.062237 944.5,393 821.5,393 C698.5,393 672,479.062237 574,479.062237 C476,479.062237 448.840565,389.112635 300.5,393 C152.159435,396.887365 112.697583,525.575244 10,503" id="Line" stroke="#5A5A5A" stroke-width="3" opacity="0.426234149" stroke-linecap="round" stroke-dasharray="9"></path>
-                        <circle id="Oval-2-Copy" fill="#114942" cx="10" cy="111" r="10"></circle>
-                        <circle id="Oval-2-Copy-2" fill="#114942" cx="10" cy="504" r="10"></circle>
-                    </g>
-                    <g id="Group-6" transform="translate(0.000000, 91.000000)">
-                        <text id="2017" font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#375A57">
-                            <tspan x="12.16" y="24">2017</tspan>
-                        </text>
-                        <rect id="Rectangle" stroke="#114942" x="0.5" y="0.5" width="69" height="33" rx="16.5"></rect>
-                        <rect id="Rectangle-Copy" stroke="#114942" x="0.5" y="397.5" width="69" height="33" rx="16.5"></rect>
-                        <text id="2019" font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#375A57">
-                            <tspan x="11.78" y="421">2019</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="roadmap" transform="translate(0.000000, 2.000000)">
+            <path d="M22,113.5 C22,113.5 200.845025,146.65344 312.5,113.5 C424.154975,80.3465596 482.757331,-5.68434189e-14 572.265015,-5.68434189e-14 C649.432349,-5.68434189e-14 727.607877,83.6568833 833.5,113.5 C939.392123,143.343117 1122.53003,113.5 1122.53003,113.5 C1122.53003,113.5 1205.24132,100.502788 1233,150 C1260.75868,199.497212 1259,253.570726 1259,297.3172 C1259,334.116888 1260.99621,389.313545 1233,425 C1205.00379,460.686455 1194.91714,479.062237 1122.53003,479.062237 C1050.14292,479.062237 956.5,393 833.5,393 C710.5,393 684,479.062237 586,479.062237 C488,479.062237 460.840565,389.112635 312.5,393 C164.159435,396.887365 124.697583,525.575244 22,503" id="Line" stroke="#FBFBFB" stroke-width="3" opacity="0.426234149" stroke-linecap="round" stroke-dasharray="9"></path>
+            <circle id="Oval-2-Copy" fill="#FBFBFB" fill-rule="nonzero" cx="7.5" cy="110.5" r="7.5"></circle>
+            <circle id="Oval-2-Copy-2" fill="#FBFBFB" fill-rule="nonzero" cx="9.5" cy="498.5" r="7.5"></circle>
         </g>
     </g>
 </svg>
