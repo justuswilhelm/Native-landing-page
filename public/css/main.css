@@ -17,12 +17,18 @@
 @import url('people.css');
 @import url('detail.css');
 @import url('bootstrap-social.css');
+@font-face { font-family: "Alte DIN";
+src: url("css/fonts/Alte-DIN-1451-Mittelschrift-gepraegt.ttf");
+}
+
+
+
 html {
   overflow-x: hidden;
 }
 
 body {
-  font-family: "Montserrat", Helvetica !important;
+  font-family: "Alte DIN", "Montserrat", Helvetica !important;
   color: #43464C;
   overflow-x: hidden;
 }
@@ -69,6 +75,10 @@ body {
 
 .btn.btn-success {
   background: rgb(235, 100, 104);
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  margin-left: -20%;
+  height: 38px;
 }
 
 .btn.btn-green {
