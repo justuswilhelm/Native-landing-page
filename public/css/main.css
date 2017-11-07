@@ -5,10 +5,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,900');
 @import url('/css/mobile.css');
 @import url('/css/rain.css');
-@import url('/css/header.css');
-@import url('/css/about.css');
-@import url('/css/team.css');
-@import url('/css/partners.css');
+@import url('header.css');
+@import url('about.css');
+@import url('team.css');
+@import url('partners.css');
 @import url('/css/user-types.css');
 @import url('/css/roadmap.css');
 @import url('/css/footer.css');
@@ -17,7 +17,6 @@
 @import url('/css/people.css');
 @import url('/css/detail.css');
 @import url('/css/bootstrap-social.css');
-@font-face { font-family: "Alte DIN";
 src: url("css/fonts/Alte-DIN-1451-Mittelschrift-gepraegt.ttf");
 }
 
@@ -28,7 +27,7 @@ html {
 }
 
 body {
-  font-family: "Alte DIN", "Montserrat", Helvetica !important;
+  font-family: "Montserrat", Helvetica !important;
   color: #43464C;
   overflow-x: hidden;
 }
