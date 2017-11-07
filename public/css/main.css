@@ -18,7 +18,7 @@
 @import url('/css/detail.css');
 @import url('/css/bootstrap-social.css');
 @font-face { font-family: "Alte DIN";
-src: url("css/fonts/Alte-DIN-1451-Mittelschrift-gepraegt.ttf");
+src: url("/css/fonts/Alte-DIN-1451-Mittelschrift-gepraegt.ttf");
 }
 
 
