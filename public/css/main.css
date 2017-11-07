@@ -3,22 +3,22 @@
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,900');
-@import url('mobile.css');
-@import url('rain.css');
-@import url('header.css');
-@import url('about.css');
-@import url('team.css');
-@import url('partners.css');
-@import url('user-types.css');
-@import url('roadmap.css');
-@import url('footer.css');
-@import url('habitats.css');
-@import url('ideas.css');
-@import url('people.css');
-@import url('detail.css');
-@import url('bootstrap-social.css');
+@import url('/mobile.css');
+@import url('/rain.css');
+@import url('/header.css');
+@import url('/about.css');
+@import url('/team.css');
+@import url('/partners.css');
+@import url('/user-types.css');
+@import url('/roadmap.css');
+@import url('/footer.css');
+@import url('/habitats.css');
+@import url('/ideas.css');
+@import url('/people.css');
+@import url('/detail.css');
+@import url('/bootstrap-social.css');
 @font-face { font-family: "Alte DIN";
-src: url("css/fonts/Alte-DIN-1451-Mittelschrift-gepraegt.ttf");
+src: url("/css/fonts/Alte-DIN-1451-Mittelschrift-gepraegt.ttf");
 }
 
 

@@ -15,7 +15,7 @@
 }
 
 .roadmap-section .roadmap-line {
-  background: url(../img/roadmap_island.svg);
+  background: url(/img/roadmap_island.svg);
   height: 700px;
   background-size: 100% 100%;
   width: 100%;
