@@ -3,20 +3,20 @@
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,900');
-@import url('./css/mobile.css');
-@import url('./css/rain.css');
-@import url('./css/header.css');
-@import url('./css/about.css');
-@import url('./css/team.css');
-@import url('./css/partners.css');
-@import url('./css/user-types.css');
-@import url('./css/roadmap.css');
-@import url('./css/footer.css');
-@import url('./css/habitats.css');
-@import url('./css/ideas.css');
-@import url('./css/people.css');
-@import url('./css/detail.css');
-@import url('./css/bootstrap-social.css');
+@import url('/css/mobile.css');
+@import url('/css/rain.css');
+@import url('/css/header.css');
+@import url('/css/about.css');
+@import url('/css/team.css');
+@import url('/css/partners.css');
+@import url('/css/user-types.css');
+@import url('/css/roadmap.css');
+@import url('/css/footer.css');
+@import url('/css/habitats.css');
+@import url('/css/ideas.css');
+@import url('/css/people.css');
+@import url('/css/detail.css');
+@import url('/css/bootstrap-social.css');
 }
 
 
