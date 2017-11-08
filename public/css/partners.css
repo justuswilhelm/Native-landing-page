@@ -26,12 +26,14 @@
   color: rgba(0, 0, 0, 0.4);
   font-weight: 500;
   font-size: 11px;
+  margin-left: 27%;
 }
 
 .partners-section .partner .content h4{
   color: #383838;
-  float: right;
+  float: left;
   font-size: 12px;
+  margin-left: 10%;
 }
 
 .owl-carousel .owl-item img {
@@ -53,8 +55,12 @@
     display: none;
   }
 
+  .partners-section .partner .content h4{
+    display: none;
+  }
+
   .partners-section .partner .partner-img {
-    margin-left: 20px;
+    margin-left: 50px;
   }
 
   .partners-section .partner .content{

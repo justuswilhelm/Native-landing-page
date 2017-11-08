@@ -21,17 +21,22 @@
 
 html {
   overflow-x: hidden;
+  margin:0;
+padding:0;
 }
 
 body {
   font-family: "Montserrat", Helvetica !important;
   color: #43464C;
   overflow-x: hidden;
+  margin:0;
+padding:0;
 }
 
 /*
 //  MAIN
 */
+
 
 .centered {
   margin-left: auto;
@@ -75,6 +80,14 @@ body {
   border-top-left-radius: 0px;
   margin-left: -20%;
   height: 38px;
+}
+
+.btn.btn-footer {
+  background: rgb(235, 100, 104);
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  margin-left: -20%;
+  color: white;
 }
 
 .btn.btn-green {
@@ -169,7 +182,7 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
 
 @media (max-width: 768px) {
   .section-header h4 {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
   .section-header h3 {
     font-size: 18px !important;
@@ -360,9 +373,9 @@ input[type=text], input[type=password], input[type=email], input[type=address] {
   padding: 15px 0 50px 0;
   min-height: auto;
   max-height: auto;
-  background: -moz-linear-gradient(top, rgba(115, 143, 173, 0.9) 0%, rgba(50, 55, 68, 0) 100%);
-  background: -webkit-linear-gradient(top, rgba(115, 143, 173, 0.9) 0%, rgba(50, 55, 68, 0) 100%);
-  background: linear-gradient(to bottom, rgba(115, 143, 173, 0.9) 0%, rgba(50, 55, 68, 0) 100%);
+  background: -moz-linear-gradient(top, rgba(55, 119, 126, 0.9) 0%, rgba(50, 55, 68, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(55, 119, 126, 0.9) 0%, rgba(50, 55, 68, 0) 100%);
+  background: linear-gradient(to bottom, rgba(55, 119, 126, 0.9) 0%, rgba(50, 55, 68, 0) 100%);
 }
 
 #navbar.navbar-default .navbar-header {

@@ -3,7 +3,7 @@
       font-size: 26px;
       }
   .user-types-section .user-img {
-    max-width: 350px;
+    max-width: 100%;
   }
 }
 

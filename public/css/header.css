@@ -66,6 +66,7 @@
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
   margin-left: 2px;
+  height: 41px;
 }
 
 .header-section .video {
@@ -251,6 +252,7 @@
 @media (min-width: 321px) and (max-width: 375px){
   .flex{
     flex: none;
+    margin-left: 5%;
   }
 }
 

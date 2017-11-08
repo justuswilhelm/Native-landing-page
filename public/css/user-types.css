@@ -339,6 +339,12 @@ padding: 10px 10px 10px 40px;
   font-weight: 500;
 }
 
+@media (max-width: 440px) {
+  .festival, .micronation, .charity  {
+    font-size: 15px;
+    }
+}
+
 .user-types-section .detail .short{
   color:rgba(0, 0, 0, 0.55);
   font-weight: 500;
