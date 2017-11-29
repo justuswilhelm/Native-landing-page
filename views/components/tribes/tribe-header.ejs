@@ -1,0 +1,11 @@
+<div class="image-bg-fluid-height"
+	<% if( "undefined" !== typeof native.coverImageUrl && native.coverImageUrl !== "" ) { %>
+		style="background: url('<%= native.coverImageUrl %>') no-repeat center center scroll"
+	<% } %>
+	>
+	<% if("undefined" !== typeof native.imageUrl && native.imageUrl!=='') { %>
+		<img class="img-responsive img-center" src="<%= native.imageUrl %>" alt="<%= native.fullName %>">
+	<% } else { %>
+	    <img src="/img/team/pic-1.png">
+	<% } %>
+</div>

@@ -6,7 +6,7 @@ const request = require('superagent');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   request
-		.get("https://habitat-api.azurewebsites.net/ideas")
+		.get("https://native-api.azurewebsites.net/ideas")
 		.end(function(err, resApi){
 		    if(err){
 		     console.log(err);
@@ -25,7 +25,7 @@ router.get('/:ideaId', function(req, res, next) {
 	console.log('req: ', req.params);
 	console.log('req.path: ', req.path);
 	request
-		.get("https://habitat-api.azurewebsites.net/ideas/"+ideaId)
+		.get("https://native-api.azurewebsites.net/ideas/"+ideaId)
 		.end(function(err, resApi){
 		    if(err){
 		     console.log(err);
@@ -34,7 +34,7 @@ router.get('/:ideaId', function(req, res, next) {
 		     idea = resApi.body;
 		     console.log('idea :', idea);
 		     request
-				.get("https://habitat-api.azurewebsites.net/users/"+idea.owner)
+				.get("https://native-api.azurewebsites.net/users/"+idea.owner)
 				.end(function(err, resApiOwner){
 				    if(err){
 				     console.log(err);

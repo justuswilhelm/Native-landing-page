@@ -6,7 +6,7 @@ const request = require('superagent');
 /* GET home page. */
 router.get('/', function(req, res, next) {
 	request
-		.get("https://habitat-api.azurewebsites.net/users")
+		.get("https://native-api.azurewebsites.net/users")
 		.end(function(err, resApi){
 		    if(err){
 		     console.log(err);
@@ -25,7 +25,7 @@ router.get('/:userId', function(req, res, next) {
 	console.log('req: ', req.params);
 	console.log('req.path: ', req.path);
 	request
-		.get("https://habitat-api.azurewebsites.net/users/"+userId)
+		.get("https://native-api.azurewebsites.net/users/"+userId)
 		.end(function(err, resApi){
 		    if(err){
 		     console.log(err);
@@ -33,17 +33,17 @@ router.get('/:userId', function(req, res, next) {
 		    } else {
 		     //console.log(resApi.body);
 		     request
-				.get("https://habitat-api.azurewebsites.net/habitats?owner="+userId)
-				.end(function(err, resApiHabitats){
+				.get("https://native-api.azurewebsites.net/natives?owner="+userId)
+				.end(function(err, resApinatives){
 				    if(err){
 				     console.log(err);
 		     		 return next(err);
 				    } else {
 				     user = resApi.body;
-				     user.habitats = resApiHabitats.body;
+				     user.natives = resApinatives.body;
 				     //console.log('user: ', user);
 				     request
-						.get("https://habitat-api.azurewebsites.net/ideas?owner="+userId)
+						.get("https://native-api.azurewebsites.net/ideas?owner="+userId)
 						.end(function(err, resApiIdeas){
 						    if(err){
 						     console.log(err);

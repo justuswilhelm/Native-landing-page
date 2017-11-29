@@ -1,4 +1,4 @@
-RUN HABITAT STATIC LANDING PAGE LOCALLY
+RUN native STATIC LANDING PAGE LOCALLY
 
 Download the code from Gitlab
 npm install for installing all the project dependencies

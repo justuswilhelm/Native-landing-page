@@ -7,7 +7,8 @@ var bodyParser = require('body-parser');
 const request = require('superagent');
 
 var index = require('./routes/index');
-var habitats = require('./routes/habitats');
+var token = require('./routes/about');
+var natives = require('./routes/natives');
 var ideas = require('./routes/ideas');
 var people = require('./routes/people');
 var users = require('./routes/users');
@@ -29,7 +30,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/habitats', habitats);
+app.use('/about', about);
+app.use('/natives', natives);
 app.use('/ideas', ideas);
 app.use('/people', people);
 app.use('/users', users);

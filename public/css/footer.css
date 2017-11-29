@@ -118,7 +118,8 @@
 @media (min-width:1024px){
 
     .footer-section2 .link .col-md-6:nth-child(2n+1){
-        border-right: 2px dotted rgba(0, 0, 0, 0.2);
+      border-right: 2px dotted rgba(0, 0, 0, 0.2);
+
     }
 
     .footer-section2 .link .col-md-10:nth-child(2n){
