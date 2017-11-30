@@ -276,12 +276,18 @@ h3, .h3 {
   color: #176E63;
 }
 
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 0;
+}}
+
 #navbar .navbar-brand {
   margin-right: 15px;
 }
 
 #navbar .navbar-brand img {
-  height: 35px;
+  height: 55px;
   display: inline-block;
   top: -5px;
   position: relative;
