@@ -28,11 +28,15 @@ var server = http.createServer(app);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 server.listen(port, '10.129.41.61');
 =======
 server.listen(8080, '10.129.41.61');
 >>>>>>> parent of 0ee7adb... prod mod
 console.log('Server running at http://10.129.41.61:8080/');
+=======
+server.listen(port);
+>>>>>>> parent of ac0c550... prod mods
 =======
 server.listen(port);
 >>>>>>> parent of ac0c550... prod mods
