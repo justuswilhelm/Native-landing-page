@@ -12,12 +12,10 @@
 @import url('/css/user-types.css');
 @import url('/css/roadmap.css');
 @import url('/css/footer.css');
-@import url('/css/natives.css');
 @import url('/css/ideas.css');
 @import url('/css/people.css');
 @import url('/css/detail.css');
 @import url('/css/bootstrap-social.css');
-}
 
 html {
   overflow-x: hidden;
