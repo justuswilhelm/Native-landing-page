@@ -1,0 +1,5 @@
+node_modules/*
+public/bootstrap-social-gh-pages/**/*
+public/js/vendor/*
+public/js/owl-carousel-init.js
+public/js/owl.carousel.min.js
